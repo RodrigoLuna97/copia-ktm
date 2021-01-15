@@ -1,0 +1,78 @@
+html, body, .capa{
+	height: 100%;
+}
+
+
+body{
+	
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+.my-nav{
+	position: absolute;
+	top: 30px;
+	width: 100%;
+	z-index: 999;
+	background: none;
+}
+
+ .navbar-brand{
+ 	padding: 5px 15px;
+ }
+.img-logo{
+	height: 80px;
+	width: 80px;
+	display: block;
+	background: url('imagens/ktm-icon.jpg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+
+nav, .navbar-brand{
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#produtos{
+	background: white;
+	padding-top: 80px;
+	padding-bottom: 20px;
+
+}
+
+.motos{
+	padding: 0px 0px 0px 0px;
+}
+
+footer{
+
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+#rodape h4{
+	color: white;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+#rodape .item-rede-social{
+	float:right;
+	padding: 30px;
+	
+
+}
+footer .nav a{
+ 	color: white;
+	font-size: 15px;
+	text-transform: uppercase;
+	
+}
+
+#rodape .nav a:hover{
+	color: #f60;
+
+}
